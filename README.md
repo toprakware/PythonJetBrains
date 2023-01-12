@@ -1,3 +1,2 @@
-# PythonJetBrains
-JetBrains Academy Projects
+# JetBrains Academy Projects
 https://hyperskill.org/profile/315107217
