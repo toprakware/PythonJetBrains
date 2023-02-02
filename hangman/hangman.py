@@ -25,7 +25,7 @@ def game():
         guess = input("Input a letter: ")
 
         if len(guess) != 1:
-            print("Please, input a single letter.\n")
+            print("Please, input a single letter.")
             continue
         if guess.isupper() or guess not in ascii_lowercase or type(guess) is int:
             print("Please, enter a lowercase letter from the English alphabet.")
