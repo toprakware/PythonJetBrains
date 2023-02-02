@@ -164,7 +164,6 @@ class TicTacToe:
                 best_eval = move_eval
                 hard_move = (move[0], move[1])
 
-        print("Evaluation: {}".format(best_eval))
         self.board[hard_move[0]][hard_move[1]] = self.current_mark
 
     def make_move(self, player):
