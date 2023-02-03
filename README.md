@@ -11,8 +11,8 @@ cd jetbrains-projects
 
 # Projects
 
-* ***[Hangman](https://github.com/toprakware/jetbrains-projects/edit/main/README.md#hangman-)***
-* ***[Tic-Tac-Toe](https://github.com/toprakware/jetbrains-projects/edit/main/README.md#tic-tac-toe-with-ai-)***
+* ***[Hangman](https://github.com/toprakware/jetbrains-projects#hangman-)***
+* ***[Tic-Tac-Toe](https://github.com/toprakware/jetbrains-projects#tic-tac-toe-with-ai-)***
 
 ## Hangman 💀
 ### How to Play
