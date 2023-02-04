@@ -88,6 +88,8 @@ Enter the coordinates: > [row] [column]
 ```
 - `easy` mode is the AI that generates random moves to play.
 - `medium` mode is where we see some signs of intelligence. First, it checks that if it can make a winning move or not. If no such move is available, it then checks whether the opponent can win in their next move or not. If the opponent does, it blocks their winning move. If it can't do that either, it just makes a random move.
-- `hard` mode is where the AI reaches superhuman level. Spoiler alert: it's impossible to win against, thanks to the [Minimax](https://en.wikipedia.org/wiki/Minimax) algorithm. I've also used [Alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning) and decreased the time it takes for the AI to make a move from ~1.3 seconds to ~0.09 seconds for the first move.
+- `hard` mode is where the AI reaches superhuman level. Spoiler alert: it's impossible to win against, thanks to the [Minimax](https://en.wikipedia.org/wiki/Minimax) algorithm. I've also used [Alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning) and decreased the time it takes for the AI to make the first move from ~1.3 seconds to ~0.09 seconds.
 
 If you want to exit the game, simply type `exit`.
+
+Thanks to Sebastian Lague ([@SebLague](https://github.com/SebLague)) for his incredible [video](https://www.youtube.com/watch?v=l-hh51ncgDI) that helped me a lot on making sense of the Minimax algorithm and Alpha-beta pruning.
