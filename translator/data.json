@@ -1,0 +1,19 @@
+{
+    "headers": {"User-Agent": "Mozilla/5.0"},
+    
+    "languages": [
+        "arabic",
+        "german",
+        "english",
+        "spanish",
+        "french",
+        "hebrew",
+        "japanese",
+        "dutch",
+        "polish",
+        "portuguese",
+        "romanian",
+        "russian",
+        "turkish"
+    ]
+}
