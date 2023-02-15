@@ -26,12 +26,12 @@ class Scraper:
 
         try:
             # specifying the headers to make our request
-            # present itself as some kind of a browser
+            # present itself as some kind of browser
             response = session.get(url, headers=headers)
             return response
-        except requests.exceptions.Timeout: # timeout error
+        except requests.exceptions.Timeout:  # timeout error
             raise SystemExit("Connection timed out. Please try again.")
-        except requests.exceptions.RequestException: # other possible errors
+        except requests.exceptions.RequestException:  # other possible errors
             raise SystemExit("Connection failed. Check your internet connection.")
 
     def scrape(self) -> tuple[list[str], list[str]]:
