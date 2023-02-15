@@ -45,7 +45,7 @@ class Translator:
             # if target is 'all', the translation will be 
             # applied to every language
             for target_lang in languages:
-                if target_lang != self.source: # except the source
+                if target_lang != self.source:  # except the source
                     scraper = Scraper(self.source, target_lang, self.word)
                     words, examples = scraper.scrape()
 
