@@ -1,22 +1,22 @@
-# JetBrains Academy Projects
+# Hyperskill Projects
 Here you can find more information about each of my projects. 🚀
-- NOTE: Some of them have slight alterations (mostly improvement) from what JetBrains Academy wanted.
+- NOTE: Some of them have slight alterations (mostly improvement) from what Hyperskill wanted.
 
 Download and get access to the repository by running the following commands on your terminal:
 ```
-git clone https://github.com/toprakware/jetbrains-projects.git
-cd jetbrains-projects
+git clone https://github.com/toprakware/hyperskill-projects.git
+cd hyperskill-projects
 ```
 - NOTE: If you don't have `git` installed, you can learn about how it's installed from [here.](https://github.com/git-guides/install-git)
 
 # Projects
 
-* ***[Hangman](https://github.com/toprakware/jetbrains-projects#hangman-)***
-* ***[Tic-Tac-Toe](https://github.com/toprakware/jetbrains-projects#tic-tac-toe-with-ai-)***
+* ***[Hangman](https://github.com/toprakware/hyperskill-projects#hangman-)***
+* ***[Tic-Tac-Toe with AI](https://github.com/toprakware/hyperskill-projects#tic-tac-toe-with-ai-)***
 
 ## Hangman 💀
 ### How to Play
-While in the `jetbrains-projects` directory, run the following commands to play the game:
+While in the `hyperskill-projects` directory, run the following commands to play the game:
 ```
 cd hangman
 python hangman.py
@@ -63,7 +63,7 @@ Type "play" to play the game, "results" to show the scoreboard, and "exit" to qu
 
 ## Tic-Tac-Toe with AI ❌⭕❌
 ### How to Play
-While in the `jetbrains-projects` directory, run the following command to play the game:
+While in the `hyperskill-projects` directory, run the following command to play the game:
 ```
 python ticTacToeAI.py
 ```
