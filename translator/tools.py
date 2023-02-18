@@ -66,7 +66,7 @@ class Translator:
             words, examples = scraper.scrape()
             
             try:
-                if not words or len(words) == 1:
+                if len(words) != 3:
                     raise exceptions.UnableToFindWordError(self.word)
             except exceptions.UnableToFindWordError as err:
                 raise SystemExit(err)
