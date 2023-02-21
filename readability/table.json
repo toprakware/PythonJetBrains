@@ -1,0 +1,18 @@
+{
+    "table": [
+    {"start_age": 5, "end_age": 6},
+    {"start_age": 6, "end_age": 7}, 
+    {"start_age": 7, "end_age": 8}, 
+    {"start_age": 8, "end_age": 9},
+    {"start_age": 9, "end_age": 10}, 
+    {"start_age": 10, "end_age": 11}, 
+    {"start_age": 11, "end_age": 12},
+    {"start_age": 12, "end_age": 13},
+    {"start_age": 13, "end_age": 14},
+    {"start_age": 14, "end_age": 15},
+    {"start_age": 15, "end_age": 16},
+    {"start_age": 16, "end_age": 17},
+    {"start_age": 17, "end_age": 18},
+    {"start_age": 18, "end_age": 22}
+    ]
+}
