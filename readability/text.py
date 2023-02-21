@@ -1,4 +1,7 @@
+import nltk
 from nltk.tokenize import regexp_tokenize, sent_tokenize
+
+nltk.download('punkt')
 
 
 class TextAttributes:
