@@ -57,7 +57,8 @@ class AutomatedIndex(Test):
             + .5 * (self.words / self.sentences)
             - 21.43
         )
-
+        if score > 14:
+            return 14
         return score
 
 
@@ -85,6 +86,8 @@ class FleschKincaidTest(Test):
             - 15.59
         )
 
+        if score > 14:
+            return 14
         return score
     
 
@@ -111,5 +114,9 @@ class DaleChallIndex(Test):
             + .0496 * (self.words / self.sentences)
             + 3.6365
         )
+        if (self.difficult / self.words) * 100 > 5:
+            score = ceil(score + 3.6365)
 
+        if score > 14:
+            return 14
         return score
